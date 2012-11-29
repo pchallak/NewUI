@@ -1,7 +1,7 @@
 NewUI
 =====
 
-Newer User Interface applications for VistA based on EWD.
+New User Interface applications for VistA based on EWD.
 
 This project gathers a collection of applications based on using EWD as an
 inteface to RPC services provided by VistA.
