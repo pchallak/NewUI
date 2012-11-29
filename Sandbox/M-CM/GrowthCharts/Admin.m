@@ -3,9 +3,9 @@ login(sessid) ; 11/13/12 6:42pm
  d clearFieldErrors^%zewdExt4Code(sessid)
  s username=$$getSessionValue^%zewdAPI("username",sessid)
  s password=$$getSessionValue^%zewdAPI("password",sessid)
- i username="" d setFieldError^%zewdExt4Code("username","You must enter a username",sessid)
- i password="" d setFieldError^%zewdExt4Code("password","You must enter a password",sessid)
- i username'="mcm" d setFieldError^%zewdExt4Code("username","Unrecognised username",sessid)
- i password'="12345" d setFieldError^%zewdExt4Code("password","Invalid password",sessid)
+ i username="" d setFieldError^%zewdExt4Code("username","Enter a username. I dare you.",sessid)
+ i password="" d setFieldError^%zewdExt4Code("password","What is the secret password?",sessid)
+ i username'="mcm" d setFieldError^%zewdExt4Code("username","Sorry. I don't know you.",sessid)
+ i password'="12345" d setFieldError^%zewdExt4Code("password","Your password is bad, and you should feel bad.",sessid)
  QUIT $$formErrors^%zewdExt4Code(sessid)
  ;
