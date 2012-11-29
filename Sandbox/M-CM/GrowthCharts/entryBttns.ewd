@@ -5,6 +5,9 @@
     <ext4:button text="Height"        nextPage="heightChart" addTo="entryChartPanel" replacePreviousPage="true" />
     <ext4:button text="Weight/Height" nextPage="hwrtioChart" addTo="entryChartPanel" replacePreviousPage="true" />
 	<ext4:button text="Cholesterol"   nextPage="cholChart"   addTo="entryChartPanel" replacePreviousPage="true" />
+<<<<<<< HEAD
 	<ext4:button text="Body Mass Index" nextPage="bmiChart"  addTo="entryChartPanel" replacePreviousPage="true" />
+=======
+>>>>>>> master
   </ext4:toolbar>
 </ext4:fragment>
