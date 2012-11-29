@@ -26,8 +26,8 @@ test001() ; 10/14/12 8:00pm
  do addChild^databaseMCM(.name,dateOfBirth)
 
  ; changes the values of first and last name
- set name("first")="John"
- set name("last")="Doe"
+ set name("first")="Felix"
+ set name("last")="Oobarson"
 
  ; changes the value of date of birth
  set dateOfBirth=$$FUNC^%DATE("11/22/2004")
