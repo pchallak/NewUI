@@ -1,4 +1,3 @@
-
 <ext4:fragment onBeforeRender="getWeightHeightRatioData^growthChartsMCM">
   <ext4:panel title="Weight/Height Ratio for Children Aged" layout="fit" />
     <ext4:panel title="Birth through age 3" layout="fit" />
