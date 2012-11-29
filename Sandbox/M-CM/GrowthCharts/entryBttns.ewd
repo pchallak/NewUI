@@ -8,6 +8,6 @@
 <<<<<<< HEAD
 	<ext4:button text="Body Mass Index" nextPage="bmiChart"  addTo="entryChartPanel" replacePreviousPage="true" />
 =======
->>>>>>> master
+>>>>>>> master 
   </ext4:toolbar>
 </ext4:fragment>
