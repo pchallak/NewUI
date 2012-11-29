@@ -40,3 +40,4 @@ addMeasurement(childId,date,metric,measurement) ;
  kill horologDate
  quit
  ;
+
