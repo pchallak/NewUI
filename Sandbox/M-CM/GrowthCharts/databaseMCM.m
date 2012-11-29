@@ -39,3 +39,5 @@ addMeasurement(childId,date,metric,measurement) ;
  kill horologDate
  quit
  ;
+
+THIS TOTALLY MESSES STUFF UP!!!

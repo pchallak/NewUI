@@ -1,5 +1,4 @@
 <ext4:fragment>
-
   <ext4:panel height="60"  width="600" addPage="entryTitle" />
   <ext4:panel height="35"  width="150" addPage="entryTotal" />
   <ext4:panel height="30"  width="250" addPage="entryBttns" />
