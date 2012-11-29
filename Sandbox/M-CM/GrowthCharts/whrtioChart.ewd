@@ -1,5 +1,5 @@
 <ext4:fragment onBeforeRender="getWeightHeightRatioData^growthChartsMCM">
-  <ext4:panel title="Weight/Height Ratio for Ages" layout="fit" />
+  <ext4:panel title="Weight/Height Ratio for Age" layout="fit" />
     <ext4:panel title="Birth through age 3" layout="fit" />
     <ext4:chart sessionName="whrtioChart" animate="true" height="380" width="600" >
       <ext4:axis type="Numeric" position="left"   title="Weight/Height (Kg/cm)" field="whrtio" grid="true" minimum="0" maximum="1" />
