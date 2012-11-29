@@ -2,6 +2,6 @@
   <ext4:panel title="Child Header" html="#childData" />
   <ext4:panel title="Weight Chart" layout="fit" height="200" width="600" addPage="weight" />
   <ext4:panel title="Height Chart" layout="fit" height="200" width="600" addPage="height" />
-  <ext4:panel title="Head Circumference Chart" layout="fit" height="200" width="600" addPage="headcirc" />
+  <ext4:panel title="Head Circumference Chart" layout="fit" height="200" width="600" addPage="headcirc" />  
 </ext4:fragment>
 
