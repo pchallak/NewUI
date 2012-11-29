@@ -1,4 +1,3 @@
-
 getSexList(sessid) ; 11/10/12 5:27pm
  ;
  do clearList^%zewdAPI("sex",sessid)
