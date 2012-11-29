@@ -7,4 +7,5 @@ getNumberOfParticipants(sessid) ; 11/10/12 10:27am
  s numberOfParticipantsString="All Participants ("_numberOfParticipants_")"
  do setSessionValue^%zewdAPI("totalNumber",numberOfParticipantsString,sessid)
  ;
+ ;
  QUIT ""
