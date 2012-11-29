@@ -31,5 +31,6 @@ getParticipantData(sessid) ; 11/10/12 10:06am
  s data(9,"agebeyond3")="Yes"
  d deleteFromSession^%zewdAPI("entryTableData",sessid)
  d mergeArrayToSession^%zewdAPI(.data,"entryTableData",sessid)
+
  ;
  QUIT ""
