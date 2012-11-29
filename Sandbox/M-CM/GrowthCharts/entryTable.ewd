@@ -5,9 +5,3 @@
     <ext4:gridcolumn text="Data beyond age 3?" width="150"  dataIndex="agebeyond3" />
   </ext4:gridPanel>
 </ext4:fragment>
-
-
-
-
-
-
