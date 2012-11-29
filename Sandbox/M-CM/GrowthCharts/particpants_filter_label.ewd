@@ -1,3 +1,5 @@
+
+
 <ext4:fragment>
 
   <ext4:menu renderTo="participants_chart.ewd" title="Display Settings" align="right" height="100" width="100" 
