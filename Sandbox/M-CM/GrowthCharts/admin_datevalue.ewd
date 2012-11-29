@@ -1,5 +1,6 @@
 <ext4:datefield id="myDate" fieldLabel="Date" value="*" submitFormat="m/d/Y" />
 s date=$$getSessionValue^%zewdAPI("myDate",sessid)
 
-Nick Pachulski was her ;-)...
+Nick Pachulski was here ;-)...
 
+Nick Pachulski was here again in his own branch!!
