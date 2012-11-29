@@ -1,5 +1,6 @@
 login(sessid) ; 11/13/12 6:42pm
  n username,password
+ set a="Never again"
  d clearFieldErrors^%zewdExt4Code(sessid)
  s username=$$getSessionValue^%zewdAPI("username",sessid)
  s password=$$getSessionValue^%zewdAPI("password",sessid)

@@ -2,8 +2,7 @@ createDB() ; 10/17/12 11:55pm
  kill ^zmcmData
  set ^zmcmData=""
  set ^zmcmData("nextChild")=0
- set ^zmcmData("children")=""
- 
+ set ^zmcmData("children")="" 
  ;
 addChild(name,dateOfBirth,gender) ;
  new thisChild
@@ -41,10 +40,4 @@ addMeasurement(childId,date,metric,measurement) ;
  quit
  ;
 
-
-
-
-
-
-
-
+THIS TOTALLY MESSES STUFF UP!!!
