@@ -1,6 +1,6 @@
 <ext4:container isFirstPage="false" rootPath="/vista/ext-4" >
   <ext4:image sessionName="MCMLogo" src="/vista/resources/M-CM_Network_Logo.png" />
-  <ext4:panel title="M-CM Growth Data" width="601"  height="30" />
-  <ext4:panel id=centralPagePanel width="601"  addPage="addNewPrtp" />
+  <ext4:panel title="M-CM Growth Data" width="600"  height="30" />
+  <ext4:panel id=centralPagePanel width="600"  addPage="addNewPrtp" />
 </ext4:container>
 

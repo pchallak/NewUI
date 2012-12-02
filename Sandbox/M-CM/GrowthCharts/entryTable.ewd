@@ -1,7 +1,7 @@
 <ext4:fragment onBeforeRender="getParticipantData^entryTable">
   <ext4:gridPanel title="Table" frame="true" height="180" width="550" sessionName="entryTableData">
     <ext4:gridcolumn text="ParticipantName"    flex="1"    sortable="true" hideable="false" dataIndex="name" />
-    <ext4:gridcolumn text="Gender"                width="50"  sortable="true" dataIndex="Gender" />
+    <ext4:gridcolumn text="Sex"                width="50"  sortable="true" dataIndex="sex" />
     <ext4:gridcolumn text="Data beyond age 3?" width="150"  dataIndex="agebeyond3" />
   </ext4:gridPanel>
 </ext4:fragment>
