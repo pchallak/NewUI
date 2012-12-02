@@ -1,6 +1,6 @@
 getParticipantData(sessid) ; 11/10/12 10:06am
 ;
- n datablah
+ n data
 ;
  s data(1,"name")="Participant 1"
  s data(1,"sex")="Male"

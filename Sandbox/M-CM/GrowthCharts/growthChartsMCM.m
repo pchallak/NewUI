@@ -11,7 +11,6 @@ getChildHeader(sessid) ; 11/10/12 2:58pm
  set dateOfBirthNumeric=^zmcmData("children",childId,"dateOfBirth")
  set dateOfBirthText=$ZDATE(dateOfBirthNumeric)
  ;
- ;
  set firstName=^zmcmData("children",childId,"name","first")
  set lastName=^zmcmData("children",childId,"name","last")
  set childName=firstName_" "_lastName
@@ -23,7 +22,6 @@ getChildHeader(sessid) ; 11/10/12 2:58pm
  kill dateOfBirth
  kill childData
  quit ""
- ;
  ;
 getWeightData(sessid) ; 10/18/12 3:44am
  new chart
@@ -46,7 +44,6 @@ getWeightData(sessid) ; 10/18/12 3:44am
  kill daysOfLife
  quit ""
  ;
- ;
 getHeightData(sessid) ; 10/18/12 3:22am
  new chart
  new childId
@@ -68,7 +65,6 @@ getHeightData(sessid) ; 10/18/12 3:22am
  kill daysOfLife
  quit ""
  ;
- ;
 getHeadCircData(sessid) ; 10/14/12 6:36pm
  new chart
  new childId
@@ -89,7 +85,6 @@ getHeadCircData(sessid) ; 10/14/12 6:36pm
  kill dateOfBirth
  kill daysOfLife
  quit ""
- ;
  ;
 getWeightHeightRatioData(sessid) ; 10/18/12 3:44am
  new chart
@@ -117,5 +112,4 @@ getWeightHeightRatioData(sessid) ; 10/18/12 3:44am
  kill dateOfBirth
  kill daysOfLife
  quit ""
- ;
  ;

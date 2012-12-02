@@ -1,4 +1,3 @@
-abcdefg
 getSexList(sessid) ; 11/10/12 5:27pm
  ;
  do clearList^%zewdAPI("sex",sessid)
@@ -27,7 +26,6 @@ addNewParticipant(sessid) ;
  ;
  set ^zmcmData("children",thisChild,"name")=name
  set ^zmcmData("children",thisChild,"gender")=sex
- set ^zmcmData("children",thisChild,"age")=""
  set ^zmcmData("children",thisChild,"measurements")=""
  set ^zmcmData("children",thisChild,"measurements","weight")=""
  set ^zmcmData("children",thisChild,"measurements","height")=""
