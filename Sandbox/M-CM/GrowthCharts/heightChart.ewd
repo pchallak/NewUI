@@ -4,7 +4,6 @@
     <ext4:chart sessionName="heightChart" animate="true" height="380" width="600" >
       <ext4:axis type="Numeric" position="left"   title="Height (cm)"    field="Height" grid="true" minimum="0" maximum="100" />
       <ext4:axis type="Time"    position="bottom" title="Date (months)"  field="Date"   grid="true" />
-      <ext4:axis type="Time"    position="top" title="I dont know what i am doing (months)"  field="Date"   grid="true" />
       <ext4:series type="line" axis="left" xField="Date" yField="Height" />
     </ext4:chart>
   </ext4:panel>

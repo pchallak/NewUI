@@ -1,8 +1,5 @@
 <ext4:fragment>
 
-< TYLER ADDED THIS BUT NOW IT WON'T WORK AT ALL >
-
-
   <ext4:menu renderTo="participants_chart.ewd" title="Display Settings" align="right"	height="100" width="100" 
       floating="false">
 		<ext4:menuitem text="Hide percentile curves" plain="true"/>

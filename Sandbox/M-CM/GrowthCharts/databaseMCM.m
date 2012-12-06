@@ -3,7 +3,7 @@ createDB() ; 10/17/12 11:55pm
  set ^zmcmData=""
  set ^zmcmData("nextChild")=0
  set ^zmcmData("children")=""
- 
+ quit
  ;
 addChild(name,dateOfBirth,gender) ;
  new thisChild
@@ -40,11 +40,3 @@ addMeasurement(childId,date,metric,measurement) ;
  kill horologDate
  quit
  ;
-
-
-
-
-
-
-
-
